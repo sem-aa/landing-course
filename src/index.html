@@ -1,24 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <meta name="опис" content="Курси саморозвитку для жінок" />
+    <title>Курси саморозвитку</title>
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
-    <load ="partials/header.html" />
+    <load ="pages/main/partials/header.html" />
 
-    <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section>
+    <main>
+      <load ="pages/main/partials/hero.html" />
+      <load ="pages/main/partials/about_us.html" />
+      <load ="pages/main/partials/our_lessons.html" />
+      <!-- <load ="pages/main/partials/proposal_to_leave.html" /> -->
+      <!-- <load ="pages/main/partials/our_teachers.html" /> -->
 
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
+      <!-- <load ="pages/main/partials/reviews.html" />
+      <load ="pages/main/partials/switch-theme.html" /> -->
+      <load ="pages/main/partials/modal_team.html" />
+    </main>
 
-    <script type="module" src="./main.js"></script>
+    <load ="pages/main/partials/footer.html" />
+
+    <load ="pages/main/partials/mobile-menu.html" />
+    <load ="pages/main/partials/modal_privacy.html" />
+    <load ="pages/main/partials/modal_license.html" />
+    <load ="pages/main/partials/modal_team.html" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>

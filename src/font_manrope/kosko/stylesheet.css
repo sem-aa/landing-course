@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Kosko';
+    src: url('KoskoRegular-Regular.eot');
+    src: local('Kosko Regular Regular'), local('KoskoRegular-Regular'),
+        url('KoskoRegular-Regular.eot?#iefix') format('embedded-opentype'),
+        url('KoskoRegular-Regular.woff2') format('woff2'),
+        url('KoskoRegular-Regular.woff') format('woff'),
+        url('KoskoRegular-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kosko';
+    src: url('KoskoBold-Bold.eot');
+    src: local('Kosko Bold Bold'), local('KoskoBold-Bold'),
+        url('KoskoBold-Bold.eot?#iefix') format('embedded-opentype'),
+        url('KoskoBold-Bold.woff2') format('woff2'),
+        url('KoskoBold-Bold.woff') format('woff'),
+        url('KoskoBold-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
